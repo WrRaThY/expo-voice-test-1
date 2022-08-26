@@ -1,7 +1,7 @@
 import * as FileSystem from 'expo-file-system';
 import React, { useEffect, useState } from "react";
 import { Button, StyleSheet, Text, View } from "react-native";
-import Voice from "@nonsenselearning/voice";
+import Voice from "@react-native-voice/voice";
 import { Audio, InterruptionModeAndroid } from 'expo-av';
 import { InterruptionModeIOS } from "expo-av/src/Audio.types";
 
